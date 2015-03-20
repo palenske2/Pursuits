@@ -1,0 +1,84 @@
+header {
+	background-image: url(../img/lady_on_laptop.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+
+}
+.top-bar-section {
+
+}
+.heading {
+	text-align: center;
+	color: white;
+}
+.subheading {
+	text-align: center;
+}
+header a{
+	text-align: center;
+}
+.header-pad {
+	padding-top: 12rem;
+}
+.features {
+	padding-top: 2rem;
+	background-color: #35A37F;
+	color:white;
+}
+.why {
+	margin-bottom: 2rem;
+	color:white;
+}
+
+.feature1 {
+	margin-bottom: 50px;
+}
+.feature6 {
+	padding-bottom: 3rem;
+}
+.icon1 {
+	padding-top: 1.5rem;
+}
+.clearmarg {
+	margin-bottom: 0;
+}
+.benefits {
+	padding-top: 2rem;
+	background-color: #3c6d9f;
+	color:white;
+	padding-bottom: 2rem;
+}
+.buttonsend {
+	margin-top: 2.5rem !important;
+}
+footer {
+	margin-top: 3rem;
+	background-color: #35A37F;
+
+}
+.twitterbottom h2 {
+	color: white;
+	line-height: 2;
+
+} 
+.twittericon {
+	color: white;
+	vertical-align: middle;
+	margin-top: 1rem;
+	font-size: 3rem !important;
+}
+.fa-twitter-square:hover {
+	color:#f5b24f;
+}
+.getintouch {
+	margin-top: 1rem;
+}
+.topheading{
+	background-color: rgba(0,0,0,.33);
+    color: white;
+}
+.contactinfo {
+	margin-top: 1rem;
+}
