@@ -36,7 +36,7 @@ header a{
 	margin-bottom: 50px;
 }
 .feature6 {
-	padding-bottom: 3rem;
+	padding-bottom: 2rem;
 }
 .icon1 {
 	padding-top: 1.5rem;
@@ -54,9 +54,7 @@ header a{
 	margin-top: 2.5rem !important;
 }
 footer {
-	margin-top: 3rem;
 	background-color: #35A37F;
-
 }
 .twitterbottom h2 {
 	color: white;
@@ -73,7 +71,10 @@ footer {
 	color:#f5b24f;
 }
 .getintouch {
-	margin-top: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: white;
+	background-color: #007095
 }
 .topheading{
 	background-color: rgba(0,0,0,.33);
@@ -83,5 +84,8 @@ footer {
 	margin-top: 1rem;
 }
 .iconpadding {
-	padding-left: 3rem;
+	padding-left: 2rem;
+}
+.featuretextright {
+	padding-left: 3rem !important; 
 }
