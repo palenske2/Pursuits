@@ -12,25 +12,28 @@
     <script src="js/main.js"></script>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+<!--    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>-->
 </head>
 
-<body>
+<body><a name="top"></a>
 
-    <div class="contain-to-grid">
-        <nav class="top-bar" data-topbar role="navagation">
+    <div class="contain-to-grid sticky">
+        <nav class="top-bar" data-topbar role="navagation" data-options="sticky_on: large">
             <ul class="title-area">
-                <li class="name"><img src="img/navbarlogo.png">
+                <li class="name"><a href="#top"><img src="img/navbarlogo.png"></a>
                 </li>
                 <li class="toggle-topbar menu-icon"> <a href="#"><span>menu</span></a>
                 </li>
             </ul>
             <section class="top-bar-section">
                 <ul class="right">
-                    <li><a href="#">Features</a>
+                    <li><a href="#features">Features</a>
                     </li>
+<!--
                     <li><a href="#">Benefits</a>
                     </li>
-                    <li><a href="#">Contact</a>
+-->
+                    <li><a href="#contact">Contact</a>
                     </li>
                     <li><a href="#">Sign Up</a>
                     </li>
@@ -43,7 +46,7 @@
             <div class="topheading large-centered columns text-center">
                 <h1 class="heading">Want to organize your job search?</h1>
                 <p class="subheading">Tired of using spreadsheets and notebooks to manage your job search process?</p>
-                <a class="button radius">Learn More</a>
+                <a class="button radius" href="#features">Learn More</a>
             </div>
         </div>
         </div>
@@ -51,7 +54,9 @@
 
 
     </header>
+
     <!--<section class="features">
+>>>>>>> 501bd88dff46be35cfefabc205edefe889cb5565
         <div class="row">
             <div class="why large-9 large-centered columns text-center">
                 <h2 class="why">Why Pursuits?</h2>
@@ -102,7 +107,7 @@
             </div>
         </div>
         <div class="row feature6 features">
-            <div class="icon large-2 columns right small-only-text-center large-pull-5 text-center"> <span><i class="fa fa-tasks fa-5x "></i></span>
+            <div class="icon large-2 columns right small-only-text-center large-pull-5 "> <span><i class="fa fa-tasks fa-5x "></i></span>
             </div>
             <div class="feature6 large-5 columns left">
                 <h4 class="clearmarg why">Multi-task Easily</h4>
@@ -110,7 +115,7 @@
             </div>
         </div>
     </section>-->
-    <section class="benefits">
+    <section class="benefits"><a name="features"></a>
    <div class="row">
     <div class="why large-9 large-centered columns text-center">
    
@@ -194,7 +199,8 @@
                 </div>
               </div>
             </section> 
-    <section class="getintouch">
+    <section class="getintouch"><a name="contact"></a>
+
         <div class="row">
             <div class="large-9 large-centered columns text-center">
 
@@ -257,6 +263,7 @@
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/scroll.js"></script>
     <script>
         $(document).foundation();
     </script>
