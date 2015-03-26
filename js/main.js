@@ -1,8 +1,9 @@
+
 /**
  * AngularJS module to process a form.
  */
-angular.module('landing',[])
-    .controller('contact', function ($scope, $http, $log, $timeout) { 
+angular.module('landing', [])
+    .controller('contact', function ($scope, $http, $log, $timeout) {
 
         // Inititate the promise tracker to track form submissions.
 
@@ -54,4 +55,4 @@ angular.module('landing',[])
                     }, 3000);
                 });
         };
-});
+    });
