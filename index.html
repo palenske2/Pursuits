@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
 <!--    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>-->
+    <link rel="stylesheet" href="css/animate.css">
+
 </head>
 
 <body><a name="top"></a>
@@ -41,7 +43,7 @@
             </section>
         </nav>
     </div>
-    <header>
+    <header class="wow fadeIn">
         <div class="large-12 header-pad">
             <div class="topheading large-centered columns text-center">
                 <h1 class="heading">Want to organize your job search?</h1>
@@ -117,13 +119,13 @@
     </section>-->
     <section class="benefits"><a name="features"></a>
    <div class="row">
-    <div class="why large-9 large-centered columns text-center">
+    <div class="why large-9 large-centered columns text-center ">
    
-      <h2 class="benefits">Why Pursuits?</h2>
+      <h2 class="benefits wow zoomIn">Why Pursuits?</h2>
     </div>
    </div>
 
-   <div class="row">
+   <div class="row wow slideInRight">
     <div class="small-12 large-4 columns">
       <div class="benefit1 text-center">
         <div class="row">
@@ -159,7 +161,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row wow slideInLeft">
           <div class="small-12 large-4 columns">
             <div class="benefit4 text-center">
                 <div class="row">
@@ -204,11 +206,11 @@
         <div class="row">
             <div class="large-9 large-centered columns text-center">
 
-                <h2 class="getintouch">Interested?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                <h2 class="getintouch wow zoomIn">Interested?</h2>
+                <p class="wow bounceIn">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
             </div>
         </div>
-        <div class="contactinfo" data-ng-controller="contact">
+        <div class="contactinfo wow fadeIn" data-ng-controller="contact">
             <div id="messages" data-alert class="alert-box success radius" data-ng-show="messages" data-ng-bind="messages">
             </div>
             <div class="row">
@@ -243,7 +245,7 @@
         </div>
         </div>
     </section>
-    <footer>
+    <footer class="wow slideInUp">
         <div class="row twitterbottom ">
             <div class="small-only-text-center large-11 columns text-left">
                 <h2>Follow us on Twitter</h2>
@@ -267,6 +269,10 @@
     <script>
         $(document).foundation();
     </script>
+    <script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
 </body>
 
 </html>
